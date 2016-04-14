@@ -23,6 +23,6 @@ pyinstaller_bug returned -1
 
 ---------------------------------------------------------
 
-If you want to rebuild the distributable, just go to the top diretory and run:
+If you want to rebuild the distributable, just go to the top directory and run:
 
 pyinstaller pyinstaller_bug.py 
