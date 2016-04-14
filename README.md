@@ -1,6 +1,6 @@
 # pyinstaller_bug
 
-First clone the repo
+First clone the repo.
 Next, check that the executable works (it does nothing except import _sqlite3):
 
 cd dist/pyinstaller_bug/
@@ -20,3 +20,9 @@ cd dist/pyinstaller_bug/
 
 ImportError: ~/bug_report/dist/pyinstaller_bug/_sqlite3.cpython-34m.so: invalid ELF header
 pyinstaller_bug returned -1
+
+---------------------------------------------------------
+
+If you want to rebuild the distributable, just go to the top diretory and run:
+
+pyinstaller pyinstaller_bug.py 
